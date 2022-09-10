@@ -2,11 +2,13 @@
 *
 ul {
     list-style: none;
-    width: 400px;
+    width: 700px;
     display: flex;
     justify-content: space-evenly;
+    color: dimgrey;
+    font-size: medium;
+    font-family: Calibri;
 }
-
 
 main {
     max-width: 800px;
@@ -14,19 +16,25 @@ main {
     padding: 15px;
     font-size: 1.4rem;
     line-height: 2.4rem;
-
 }
 
 
 #h2 {
-    font-family: Calibri;;
+    font-family: Calibri;
 }
+
 #h1 {
-    font-family: Calibri;;
+    font-family: "Arial Black";
 }
 
 #h3 {
-    font-family: Calibri;;
+    font-family: Calibri;
+}
+
+#link {
+    font-family:"Arial Black";
+    font-size: small;
+    color: blue;
 }
 
 ol {
@@ -43,11 +51,10 @@ ol {
 #h4 {
     font-size: medium;
     font-family: Calibri;
-
 }
 
 #overskrift\ 1 {
-    font-family: Calibri
+    font-family: Calibri;
 }
 
 #overskrift\ 2 {
@@ -55,18 +62,42 @@ ol {
     font-family: Calibri;
 }
 
-bo
+header {
+    background-color: aliceblue;
+
+}
+
 #billede {
-    position: absolute;
-    top: 100px;
-    left: 0px;
+    font-size: 5rem;
+    margin-bottom: .5em;
+    background: aliceblue;
+    width: 700px;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
 }
 
-body{
-    background-color: darkblue;
+#image {
+        width: 700px;
+        height: 150px;
+        object-fit: scale-down;
+    display: flex;
+    justify-content: center;
+}
+
+#billedeTekst {
+    font-family: "Arial Black";
+    font-size: small;
+    color: lightblue;
+
 }
 
 
+#section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
 
 
 
